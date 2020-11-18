@@ -38,20 +38,22 @@
                             Contact</a></li>
                 </ul>
             </div>
-
         </div>
     </nav>
     <header class="jumbotron">
         <div class="container">
-            <div class="row">
-                <div class="col-12 col-sm-8">
+            <div class="row align-items-center">
+                <div class="col-12 col-sm-6">
                     <h1>Le Chocolat</h1>
                     <p class="d-none d-sm-block">We combine experience with creativity to create innovative tastes based
                         on classic chocolate
                         recipes. Our creations will travel you in the chocolate world!</p>
                 </div>
-                <div class="col col-sm">
+                <div class="col-12 col-sm-3">
                     <img src="images/logo.png" class="img-fluid">
+                </div>
+                <div class="col-12 col-sm-3">
+                    <a class="btn btn-warning" href="#reserveBaskets"> Reserve your baskets</a>
                 </div>
             </div>
         </div>
@@ -110,7 +112,9 @@
         <div class="row row-content align-items-center justify-content-center">
             <div class="col-12 col-sm-8">
                 <div class="card">
-                    <h3 class="card-header bg-warning text-white">Reserve your baskets</h3>
+                    <div id="reserveBaskets">
+                        <h3 class="card-header bg-warning text-white">Reserve your baskets</h3>
+                    </div>
                     <div class="card-body">
                         <form>
                             <div class="form-group row">
@@ -147,8 +151,6 @@
                                         <label class="form-check-label" for="inlineRadio6">6</label>
                                     </div>
                                 </div>
-
-
                             </div>
                             <div class="form-group row">
                                 <label class="col-12 col-sm-3">Date and Time</label>
@@ -160,7 +162,6 @@
                                     </div> -->
                                     <input type="date" class="form-control">
                                 </div>
-
                                 <div class="input-group col-12 col-sm-4">
                                     <!-- <div class="input-group-prepend">
                                         <span class="input-group-text fa fa-clock-o"></span>
@@ -174,67 +175,65 @@
                 </div>
             </div>
         </div>
-
-        <footer class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-5 offset-sm-1 col-sm-2">
-                        <h5>Links</h5>
-                        <ul class="list-unstyled">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="./aboutus.html">About</a></li>
-                            <li><a href="#">Menu</a></li>
-                            <li><a href="./contactus.html">Contact</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-6 col-sm-5">
-                        <h5>Our Address</h5>
-                        <address>
-                            121, Clear Wave Road<br>
-                            Clear Wave Road, Aloha<br>
-                            HAWAII<br>
-                            <i class="fa fa-phone fa-lg"></i> +987 6543 2100<br>
-                            <i class="fa fa-fax fa-lg"></i> +987 6543 2101<br>
-                            Email: <a href="mailto:chocolat@nomail.net">chocolat@nomail.net</a>
-                        </address>
-                    </div>
-                    <div class="col col-sm-4 align-self-center">
-                        <div styles="text-align: center;">
-                            <a href="http://google.com/+">
-                                <a class="btn btn-social-icon btn-google-plus" href="http://google.com/+">
-                                    <i class="fa fa-google-plus"></i></a> </a>
-                            <a href="http://www.facebook.com/profile.php?id="> <a
-                                    class="btn btn-social-icon btn-facebook"
-                                    href="http://www.facebook.com/profile.php?id=">
-                                    <i class="fa fa-facebook"></i></a></a>
-                            <a href="http://www.linkedin.com/in/"><a class="btn btn-social-icon btn-linkedin"
-                                    href="http://www.linkedin.com/in/">
-                                    <i class="fa fa-linkedin"></i></a></a>
-                            <a href="http://twitter.com/"><a class="btn btn-social-icon btn-twitter"
-                                    href="http://twitter.com/">
-                                    <i class="fa fa-twitter"></i></a></a>
-                            <a href="http://youtube.com/"><a class="btn btn-social-icon btn-youtube"
-                                    href="http://youtube.com/">
-                                    <i class="fa fa-youtube"></i></a></a>
-                            <a href="mailto:"><a class="btn btn-social-icon" href="mailto:">
-                                    <i class="fa fa-envelope-o"></i></a>
-                            </a>
-                        </div>
-                    </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-5 offset-sm-1 col-sm-2">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="./aboutus.html">About</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="./contactus.html">Contact</a></li>
+                    </ul>
                 </div>
-                <div class="row row justify-content-center">
-                    <div class="col-auto">
-                        <p> &copy; Copyright 2018 Le Chocolat</p>
+                <div class="col-6 col-sm-5">
+                    <h5>Our Address</h5>
+                    <address>
+                        121, Clear Wave Road<br>
+                        Clear Wave Road, Aloha<br>
+                        HAWAII<br>
+                        <i class="fa fa-phone fa-lg"></i> +987 6543 2100<br>
+                        <i class="fa fa-fax fa-lg"></i> +987 6543 2101<br>
+                        Email: <a href="mailto:chocolat@nomail.net">chocolat@nomail.net</a>
+                    </address>
+                </div>
+                <div class="col col-sm-4 align-self-center">
+                    <div styles="text-align: center;">
+                        <a href="http://google.com/+">
+                            <a class="btn btn-social-icon btn-google-plus" href="http://google.com/+">
+                                <i class="fa fa-google-plus"></i></a> </a>
+                        <a href="http://www.facebook.com/profile.php?id="> <a class="btn btn-social-icon btn-facebook"
+                                href="http://www.facebook.com/profile.php?id=">
+                                <i class="fa fa-facebook"></i></a></a>
+                        <a href="http://www.linkedin.com/in/"><a class="btn btn-social-icon btn-linkedin"
+                                href="http://www.linkedin.com/in/">
+                                <i class="fa fa-linkedin"></i></a></a>
+                        <a href="http://twitter.com/"><a class="btn btn-social-icon btn-twitter"
+                                href="http://twitter.com/">
+                                <i class="fa fa-twitter"></i></a></a>
+                        <a href="http://youtube.com/"><a class="btn btn-social-icon btn-youtube"
+                                href="http://youtube.com/">
+                                <i class="fa fa-youtube"></i></a></a>
+                        <a href="mailto:"><a class="btn btn-social-icon" href="mailto:">
+                                <i class="fa fa-envelope-o"></i></a>
+                        </a>
                     </div>
                 </div>
             </div>
-        </footer>
-
-        <!-- jQuery first, then Tether, then Bootstrap JS. -->
-        <script src="node_modules/jquery/dist/jquery.min.js"></script>
-        <script src="node_modules/tether/dist/js/tether.min.js"></script>
-        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+            <div class="row row justify-content-center">
+                <div class="col-auto">
+                    <p> &copy; Copyright 2018 Le Chocolat</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/tether/dist/js/tether.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
 </body>
 
