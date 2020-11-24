@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link href="css/styles.css" rel="stylesheet">
+    <link href="css/newstyles.css" rel="stylesheet">
 
 </head>
 
@@ -33,9 +34,11 @@
 
                     <li class="nav-item"><a class="nav-link" href="./index.html"> <span class="fa fa-home fa-lg"></span>
                             Home</a></li>
-                    <li class="nav-item active"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span>
+                    <li class="nav-item active"><a class="nav-link" href="./aboutus.html"><span
+                                class="fa fa-info fa-lg"></span>
                             Αbout</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"> <span class="fa fa-list fa-lg"></span> Menu</a>
+                    <li class="nav-item"><a class="nav-link" href="#"> <span class="fa fa-list fa-lg"></span> Our
+                            Menu</a>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="./contactus.html"> <span
                                 class="fa fa-address-card fa-lg"></span>
@@ -64,256 +67,401 @@
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Menu</li>
+            <li class="breadcrumb-item active" aria-current="page">Our Menu</li>
         </ol>
     </nav>
 
     <div class="container">
         <div class="row align-items-center">
             <div class="col-12">
-                <h3>Menu</h3>
-                <hr>
-                <h3>Under heavy construction</h3>
+                <h3></h3>
             </div>
         </div>
-<!-- 
-        <div class="row row-content align-items-center">
-            <div class="col-12 col-sm-6">
-                <h2> </h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper nunc quis maximus pharetra.
-                    Quisque ut molestie ante. Donec mattis pharetra erat, eu ultricies ipsum faucibus et. Curabitur
-                    ultrices risus turpis, laoreet pulvinar justo interdum in. Quisque vel semper tellus. Etiam nibh
-                    arcu, sodales quis ultrices nec, egestas vitae libero. </p>
-                <p>Nulla ultrices diam at tortor volutpat, <em>et facilisis justo facilisis</em>. Phasellus dignissim
-                    euismod mi eget dignissim. Sed eget consequat urna. </p>
-            </div>
-            <div class="col col-sm">
-                <div class="card">
-                    <h3 class="card-header bg-secondary text-white">Facts At a Glance</h3>
-                    <div class="card-body">
-                        <dl class="row">
-                            <dt class="col-6">Started</dt>
-                            <dd class="col-6">3 Feb. 2013</dd>
-                            <dt class="col-6">Major Stake Holder</dt>
-                            <dd class="col-6">HW Fine Sweets Inc.</dd>
-                            <dt class="col-6">Last Year's Turnover</dt>
-                            <dd class="col-6">$250,000</dd>
-                            <dt class="col-6">Employees</dt>
-                            <dd class="col-6">10</dd>
-                        </dl>
+    </div>
+
+    <div class="header">
+        <h1>
+            Our Menu
+        </h1>
+        <p>
+            “There is nothing better than a friend, unless it is a friend with chocolate.”
+        </p>
+        <p>
+            ― Linda Grayson
+        </p>
+    </div>
+
+
+    <div class="cart-container">
+        <div class="empty" style="display:none">
+            No more twinkies !
+        </div>
+        <ul class="cart">
+            <li class="product" data-price="9.9" data-quantity="0">
+                <div class="product-preview">
+                    <div class="thumbnail">
+                        <img class="image"
+                            src="https://www.awfullychocolate.com/390-big_default_2x/salted-caramel-chocolate-cake.jpg" />
+                    </div>
+                    <div class="product-paper">
+                        <div class="product-name">Salted Caramel Cake</div>
+                        <div class="product-price">
+                            $ 9.90
+                        </div>
                     </div>
                 </div>
+                <div class="product-quantity">
+                    x0
+                </div>
+                <div class="product-interactions">
+                    <div class="button plus">
+                        +
+                    </div>
+                    <div class="button minus">
+                        -
+                    </div>
+                    <div class="button del"></div>
+                </div>
+            </li>
+            <li class="product" data-price="9.9" data-quantity="0">
+                <div class="product-preview">
+                    <div class="thumbnail">
+                        <img class="image"
+                            src="https://www.awfullychocolate.com/155-big_default_2x/caramel-brittle-sea-salt-chocolate-cake.jpg" />
+                    </div>
+                    <div class="product-paper">
+                        <div class="product-name">
+                            Brittle & Sea Salt Cake
+                        </div>
+                        <div class="product-price">
+                            $ 9.90
+                        </div>
+                    </div>
+                </div>
+                <div class="product-quantity">
+                    x0
+                </div>
+                <div class="product-interactions">
+                    <div class="button plus">
+                        +
+                    </div>
+                    <div class="button minus">
+                        -
+                    </div>
+                    <div class="button del"></div>
+                </div>
+            </li>
+            <li class="product" data-price="9.9" data-quantity="0">
+                <div class="product-preview">
+                    <div class="thumbnail">
+                        <img class="image"
+                            src="https://www.awfullychocolate.com/157-big_default_2x/chocolate-tiramisu-cake.jpg" />
+                    </div>
+                    <div class="product-paper">
+                        <div class="product-name">
+                            Tiramisu Cake
+                        </div>
+                        <div class="product-price">
+                            $ 9.90
+                        </div>
+                    </div>
+                </div>
+                <div class="product-quantity">
+                    x0
+                </div>
+                <div class="product-interactions">
+                    <div class="button plus">
+                        +
+                    </div>
+                    <div class="button minus">
+                        -
+                    </div>
+                    <div class="button del"></div>
+                </div>
+            </li>
+
+            <li class="product" data-price="11.5" data-quantity="0">
+                <div class="product-preview">
+                    <div class="thumbnail">
+                        <img class="image"
+                            src="https://www.awfullychocolate.com/173-big_default_2x/all-chocolate-cake.jpg" />
+                    </div>
+                    <div class="product-paper">
+                        <div class="product-name">
+                            ALL CHOCOLATE CAKE
+                        </div>
+                        <div class="product-price">
+                            $ 11.50
+                        </div>
+                    </div>
+                </div>
+                <div class="product-quantity">
+                    x0
+                </div>
+                <div class="product-interactions">
+                    <div class="button plus">
+                        +
+                    </div>
+                    <div class="button minus">
+                        -
+                    </div>
+                    <div class="button del"></div>
+                </div>
+            </li>
+
+            <li class="product" data-price="11.5" data-quantity="0">
+                <div class="product-preview">
+                    <div class="thumbnail">
+                        <img class="image"
+                            src="https://www.awfullychocolate.com/775-big_default_2x/christmas-log-cake.jpg" />
+                    </div>
+                    <div class="product-paper">
+                        <div class="product-name">
+                            Christmas Log Cake
+                        </div>
+                        <div class="product-price">
+                            $ 11.50
+                        </div>
+                    </div>
+                </div>
+                <div class="product-quantity">
+                    x0
+                </div>
+                <div class="product-interactions">
+                    <div class="button plus">
+                        +
+                    </div>
+                    <div class="button minus">
+                        -
+                    </div>
+                    <div class="button del"></div>
+                </div>
+            </li>
+
+            <li class="product" data-price="11.5" data-quantity="0">
+                <div class="product-preview">
+                    <div class="thumbnail">
+                        <img class="image"
+                            src="https://www.awfullychocolate.com/144-big_default_2x/chocolate-praline-cake.jpg" />
+                    </div>
+                    <div class="product-paper">
+                        <div class="product-name">
+                            Chocolate Praline Cake
+                        </div>
+                        <div class="product-price">
+                            $ 11.50
+                        </div>
+                    </div>
+                </div>
+                <div class="product-quantity">
+                    x0
+                </div>
+                <div class="product-interactions">
+                    <div class="button plus">
+                        +
+                    </div>
+                    <div class="button minus">
+                        -
+                    </div>
+                    <div class="button del"></div>
+                </div>
+            </li>
+            <li class="product" data-price="3.5" data-quantity="0">
+                <div class="product-preview">
+                    <div class="thumbnail">
+                        <img class="image"
+                            src="https://www.awfullychocolate.com/362-big_default_2x/cookie-chip-chocolate.jpg" />
+                    </div>
+                    <div class="product-paper">
+                        <div class="product-name">
+                            Cookie Chip Chocolate
+                        </div>
+                        <div class="product-price">
+                            $ 3.50
+                        </div>
+                    </div>
+                </div>
+                <div class="product-quantity">
+                    x0
+                </div>
+                <div class="product-interactions">
+                    <div class="button plus">
+                        +
+                    </div>
+                    <div class="button minus">
+                        -
+                    </div>
+                    <div class="button del"></div>
+                </div>
+            </li>
+            <li class="product" data-price="9.5" data-quantity="0">
+                <div class="product-preview">
+                    <div class="thumbnail">
+                        <img class="image"
+                            src="https://www.awfullychocolate.com/594-big_default_2x/18pcs-mixed-gorgeous-truffles.jpg" />
+                    </div>
+                    <div class="product-paper">
+                        <div class="product-name">
+                            18 Pcs Mixed Truffles
+                        </div>
+                        <div class="product-price">
+                            $ 9.50
+                        </div>
+                    </div>
+                </div>
+                <div class="product-quantity">
+                    x0
+                </div>
+                <div class="product-interactions">
+                    <div class="button plus">
+                        +
+                    </div>
+                    <div class="button minus">
+                        -
+                    </div>
+                    <div class="button del"></div>
+                </div>
+            </li>
+            <li class="product" data-price="2.8" data-quantity="0">
+                <div class="product-preview">
+                    <div class="thumbnail">
+                        <img class="image"
+                            src="https://www.awfullychocolate.com/120-big_default_2x/awfully-chocolate-milk.jpg" />
+                    </div>
+                    <div class="product-paper">
+                        <div class="product-name">
+                            Awfully Chocolate Milk
+                        </div>
+                        <div class="product-price">
+                            $ 2.80
+                        </div>
+                    </div>
+                </div>
+                <div class="product-quantity">
+                    x0
+                </div>
+                <div class="product-interactions">
+                    <div class="button plus">
+                        +
+                    </div>
+                    <div class="button minus">
+                        -
+                    </div>
+                    <div class="button del"></div>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+    <table class="bill">
+        <tr class="subtotal">
+            <td class="label">
+                Subtotal :
+            </td>
+            <td class="value">
+                $ 0.00
+            </td>
+        </tr>
+        <tr class="salestax">
+            <td class="label">
+                Sales tax :
+            </td>
+            <td class="value">
+                $ 0.00
+            </td>
+        </tr>
+        <tr>
+            <td class="label">
+                Shipping :
+            </td>
+            <td class="value">
+                $ 5.00
+            </td>
+        </tr>
+        <tr class="total">
+            <td class="label">
+                Total :
+            </td>
+            <td class="value">
+                $ 0.0
+            </td>
+        </tr>
+    </table>
+    <div class="actions">
+        <div class="big-button go">
+            Get them !
+        </div>
+    </div>
+    <div class="actions">
+        <div class="big-button return">
+            Return to shop
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-5 offset-1 col-sm-2">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="./contactus.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-5">
+                    <h5>Our Address</h5>
+                    <address>
+                        121, Clear Wave Road<br>
+                        Clear Wave Road, Aloha<br>
+                        HAWAII<br>
+                        <i class="fa fa-phone fa-lg"></i> +987 6543 2100<br>
+                        <i class="fa fa-fax fa-lg"></i> +987 6543 2101<br>
+                        <i class="fa fa-envelope fa-lg"></i> <a
+                            href="mailto:chocolat@nomail.net">chocolat@nomail.net</a>
+                    </address>
+                </div>
+
+                <div class="col col-sm-4 align-self-center">
+                    <div styles="text-align: center;">
+                        <a href="http://google.com/+">
+                            <a class="btn btn-social-icon btn-google-plus" href="http://google.com/+">
+                                <i class="fa fa-google-plus"></i></a> </a>
+                        <a href="http://www.facebook.com/profile.php?id="> <a class="btn btn-social-icon btn-facebook"
+                                href="http://www.facebook.com/profile.php?id=">
+                                <i class="fa fa-facebook"></i></a></a>
+                        <a href="http://www.linkedin.com/in/"><a class="btn btn-social-icon btn-linkedin"
+                                href="http://www.linkedin.com/in/">
+                                <i class="fa fa-linkedin"></i></a></a>
+                        <a href="http://twitter.com/"><a class="btn btn-social-icon btn-twitter"
+                                href="http://twitter.com/">
+                                <i class="fa fa-twitter"></i></a></a>
+                        <a href="http://youtube.com/"><a class="btn btn-social-icon btn-youtube"
+                                href="http://youtube.com/">
+                                <i class="fa fa-youtube"></i></a></a>
+                        <a href="mailto:"><a class="btn btn-social-icon" href="mailto:">
+                                <i class="fa fa-envelope-o"></i></a>
+                        </a>
+                    </div>
+
+                </div>
             </div>
-        </div> -->
-<!-- 
-
-        <div class="row row-content align-items-center">
-            <div class="col-12">
-
-                <h2>Corporate Leadership</h2>
-                <ul class="nav nav-tabs">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#tab1" role="tab" data-toggle="tab"> Jim Alcon, CEO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#tab2" role="tab" data-toggle="tab"> Bill Peterson, CFO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#tab3" role="tab" data-toggle="tab"> John Cook, C</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#tab4" role="tab" data-toggle="tab"> Vasilis Wilson, SC</a>
-                    </li>
-                </ul>
-                <div class="tab-content">
-                    <div role="tabpanel" class="tab-pane fade show active" id="tab1">
-                        <h3>Jim Alcon <small>Chief Executive Officer </small></h3>
-                        <p class="d-none d-sm-block">Jim Alcon is the CEO of our company. He is responsible for the
-                            policy
-                            and
-                            strategy of our company.
-                        </p>
-                    </div>
-                    <div role="tabpanel" class="tab-pane fade show active" id="tab2">
-                        <h3>Bill Peterson <small>Chief Financial Officer </small></h3>
-                        <p class="d-none d-sm-block">Bill Peterson is the CFO of our company. He is responsible for all
-                            the
-                            financial decisions of our
-                            company. </p>
-                    </div>
-                    <div role="tabpanel" class="tab-pane fade show active" id="tab3">
-                        <h3>John Cook <small>Chef</small></h3>
-                        <p class="d-none d-sm-block">Our Chef, John Cook has specialized in the production of chocolates
-                            and
-                            he
-                            has created the receipts
-                            for our chocolates. </p>
-                    </div>
-                    <div role="tabpanel" class="tab-pane fade show active" id="tab4">
-                        <h3>Vasilis Wilson <small>Sous-chef </small></h3>
-                        <p class="d-none d-sm-block">Vasilis Wilson is well informed of all the current trends in pastry
-                            and
-                            contributes his innovative
-                            ideas in our products. </p>
-                    </div>
-                    <div class="accordion" id="accordion">
-                        <div class="card">
-                            <div class="card-header" id="headingOne">
-                                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        <h4>Jim Alcon <small>Chief Executive Officer </small></h4>
-                                  </button>
-                             </div>
-                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p >Jim Alcon is the CEO of our company. He is responsible for the policy and strategy of our company. </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="headingTwo">
-                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    <h4>Bill Peterson  <small>Chief Financial Officer </small></h4>
-                                </button>
-                            </div>
-                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p >Bill Peterson is the CFO of our company. He is responsible for all the financial decisions of our company. </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="headingThree">
-                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    <h4>John Cook <small>Chef</small></h4>
-                                </button>
-                            </div>
-                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p >Our Chef, John Cook has specialized in the production of chocolates and he has created the receipts for our chocolates. </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="headingFour">
-                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                    <h4>Vasilis Wilson  <small>Sous-chef </small></h4>
-                                </button>
-                            </div>
-                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p >Vasilis Wilson is well informed of all the current trends in pastry and contributes his innovative ideas in our products. </p>
-                                </div>
-                            </div>
-                        </div>                    
-                    </div>
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <p>&copy; Copyright 2018 Le Chocolat</p>
                 </div>
             </div>
         </div>
+    </footer>
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/tether/dist/js/tether.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
 
-        <div class="row row-content">
-            <div class="col-12 col-sm-9">
-                <h2> Create your milk chocolate!</h2>
-                <div class="table-responsive">
-                    <table class="table table-hover">
-                        <caption>This recipe makes a bar of about 100g.</caption>
-                        <thead class="thead-dark">
-                            <tr>
-                                <th>Ingredients</th>
-                                <th>Quantity</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Cocoa butter</td>
-                                <td>50 g</td>
-                            </tr>
-                            <tr>
-                                <td>Icing sugar</td>
-                                <td>50 g</td>
-                            </tr>
-                            <tr>
-                                <td>Milk powder (Full fat)</td>
-                                <td>25 g</td>
-                            </tr>
-                            <tr>
-                                <td>Cocoa powder (Unsweetended)</td>
-                                <td>13 g</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-
-            </div>
-            <div class="col-12 col-sm-3">
-            </div>
-        </div> -->
-
-
-
-        <footer class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-5 offset-1 col-sm-2">
-                        <h5>Links</h5>
-                        <ul class="list-unstyled">
-                            <li><a href="./index.html">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Menu</a></li>
-                            <li><a href="./contactus.html">Contact</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-6 col-sm-5">
-                        <h5>Our Address</h5>
-                        <address>
-                            121, Clear Wave Road<br>
-                            Clear Wave Road, Aloha<br>
-                            HAWAII<br>
-                            <i class="fa fa-phone fa-lg"></i> +987 6543 2100<br>
-                            <i class="fa fa-fax fa-lg"></i> +987 6543 2101<br>
-                            <i class="fa fa-envelope fa-lg"></i> <a
-                                href="mailto:chocolat@nomail.net">chocolat@nomail.net</a>
-                        </address>
-                    </div>
-
-                    <div class="col col-sm-4 align-self-center">
-                        <div styles="text-align: center;">
-                            <a href="http://google.com/+">
-                                <a class="btn btn-social-icon btn-google-plus" href="http://google.com/+">
-                                    <i class="fa fa-google-plus"></i></a> </a>
-                            <a href="http://www.facebook.com/profile.php?id="> <a
-                                    class="btn btn-social-icon btn-facebook"
-                                    href="http://www.facebook.com/profile.php?id=">
-                                    <i class="fa fa-facebook"></i></a></a>
-                            <a href="http://www.linkedin.com/in/"><a class="btn btn-social-icon btn-linkedin"
-                                    href="http://www.linkedin.com/in/">
-                                    <i class="fa fa-linkedin"></i></a></a>
-                            <a href="http://twitter.com/"><a class="btn btn-social-icon btn-twitter"
-                                    href="http://twitter.com/">
-                                    <i class="fa fa-twitter"></i></a></a>
-                            <a href="http://youtube.com/"><a class="btn btn-social-icon btn-youtube"
-                                    href="http://youtube.com/">
-                                    <i class="fa fa-youtube"></i></a></a>
-                            <a href="mailto:"><a class="btn btn-social-icon" href="mailto:">
-                                    <i class="fa fa-envelope-o"></i></a>
-                            </a>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-auto">
-                        <p>&copy; Copyright 2018 Le Chocolat</p>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- jQuery first, then Tether, then Bootstrap JS. -->
-        <script src="node_modules/jquery/dist/jquery.min.js"></script>
-        <script src="node_modules/tether/dist/js/tether.min.js"></script>
-        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-        <script src="js/scripts.js"></script>
-
-    </body>
+</body>
 
 </html>
